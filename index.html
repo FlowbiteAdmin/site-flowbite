@@ -1,134 +1,198 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Soluções tecnológicas em automação e integração de processos. Atendemos empresas de todos os tamanhos." />
     <title>Flowbite - Tecnologia que potencializa resultados</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="images/logo.png">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   </head>
-  <body class="bg-gray-50 text-gray-800">
-    <!-- Header -->
-    <header class="bg-blue-900 text-white py-6 sticky top-0 z-50 shadow">
-      <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
-        <h1 class="text-2xl font-bold">Flowbite</h1>
-        <nav class="space-x-6 text-sm">
-          <a href="#home" class="hover:underline">Home</a>
-          <a href="#sobre" class="hover:underline">Sobre</a>
-          <a href="#beneficios" class="hover:underline">Benefícios</a>
-          <a href="#casos" class="hover:underline">Casos de Uso</a>
-          <a href="#clientes" class="hover:underline">Empresas</a>
-          <a href="#faq" class="hover:underline">FAQ</a>
-          <a href="#contato" class="hover:underline">Contato</a>
+  <body class="bg-gray-100 text-gray-800">
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <img src="images/logo.png" alt="Flowbite" class="h-12">
+        <nav class="space-x-4 hidden md:flex">
+          <a href="#home" class="hover:text-blue-600">Home</a>
+          <a href="#sobre" class="hover:text-blue-600">Sobre</a>
+          <a href="#beneficios" class="hover:text-blue-600">Benefícios</a>
+          <a href="#casos" class="hover:text-blue-600">Casos de Uso</a>
+          <a href="#faq" class="hover:text-blue-600">FAQ</a>
+          <a href="#contato" class="hover:text-blue-600">Contato</a>
         </nav>
       </div>
     </header>
 
-    <!-- Hero -->
-    <section id="home" class="py-20 text-center bg-white">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-4xl font-bold mb-4">Transformamos processos manuais em automações inteligentes</h2>
-        <p class="text-lg text-gray-600">Soluções digitais sob medida para pequenas e médias empresas</p>
+    <section id="home" class="bg-gray-50 py-24 text-center" data-aos="fade-up">
+      <h1 class="text-4xl font-bold mb-4">Tecnologia que impulsiona resultados</h1>
+      <p class="text-lg mb-6 max-w-xl mx-auto">Transformamos processos manuais em soluções digitais inteligentes para empresas de todos os tamanhos.</p>
+      <a href="#contato" class="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700">Fale conosco</a>
+    </section>
+
+    <section id="sobre" class="py-16 bg-white" data-aos="fade-up">
+      <div class="container mx-auto px-6 text-center max-w-3xl">
+        <h2 class="text-3xl font-bold mb-6">Sobre a Flowbite</h2>
+        <p>A Flowbite é especialista em automação de processos e integração entre sistemas. Atendemos empresas de todos os portes que buscam eliminar tarefas manuais, reduzir erros e aumentar a produtividade.</p>
       </div>
     </section>
 
-    <!-- Sobre -->
-    <section id="sobre" class="py-16 bg-gray-100 text-center">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold mb-4">Sobre a Flowbite</h2>
-        <p>Especialistas em digitalizar e padronizar processos operacionais, integrando sistemas, dados e equipes para aumentar a produtividade e controle.</p>
+    <section id="beneficios" class="py-16 bg-gray-50" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Benefícios para sua empresa</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Automatização de tarefas</h3>
+        <p>Reduza erros e ganhe tempo com processos automáticos e eficientes.</p>
       </div>
-    </section>
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Integração entre sistemas</h3>
+        <p>Unifique dados e comunique plataformas como SAP, SharePoint, ERPs e CRMs.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Escalabilidade</h3>
+        <p>Tenha soluções adaptáveis conforme o crescimento do seu negócio.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Redução de custos operacionais</h3>
+        <p>Menos retrabalho e mais eficiência nos processos internos.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Tomada de decisão inteligente</h3>
+        <p>Dashboards e relatórios em tempo real para apoiar a gestão.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Maior segurança da informação</h3>
+        <p>Processos digitais com rastreabilidade e controle de acesso.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Benefícios -->
-    <section id="beneficios" class="py-16 text-center">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold mb-10">Benefícios</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Redução de Erros</h3>
-            <p>Automatização reduz falhas manuais e aumenta a confiabilidade dos dados.</p>
-          </div>
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Economia de Tempo</h3>
-            <p>Libere sua equipe de tarefas repetitivas para focar em atividades estratégicas.</p>
-          </div>
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Padronização</h3>
-            <p>Fluxos consistentes e documentados facilitam o crescimento escalável.</p>
-          </div>
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Maior Controle</h3>
-            <p>Relatórios e integrações em tempo real aumentam a visibilidade do negócio.</p>
-          </div>
+    <!-- CASOS DE USO -->
+    <section id="casos" class="py-16 bg-gray-50" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Casos de Uso</h2>
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m4 0h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Envio de relatórios</h3>
+        <p class="text-center">Relatórios automáticos com dados de SAP e SharePoint.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M9 17v-6h13v6M9 5v4h13V5M3 6h.01M3 10h.01M3 14h.01M3 18h.01" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Aprovação de pedidos</h3>
+        <p class="text-center">Fluxos automáticos de aprovação e integração ao ERP.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 2.761-2.239 5-5 5s-5-2.239-5-5 2.239-5 5-5 5 2.239 5 5zM19 11h1v2h-1zM16.293 17.293l.707.707M19.293 14.707l.707-.707" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Onboarding de colaboradores</h3>
+        <p class="text-center">Processos de integração com geração de acessos e documentos.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M4 4h16v16H4z" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Monitoramento de sistemas</h3>
+        <p class="text-center">Alertas e registros automáticos de falhas operacionais.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h6m1 8h4a2 2 0 002-2v-5a2 2 0 00-2-2h-4v7zm-6 0H5a2 2 0 01-2-2v-5a2 2 0 012-2h4v7z" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Automação de faturamento</h3>
+        <p class="text-center">Emissão de notas fiscais integrada ao sistema contábil.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <div class="text-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17h2v2h-2zM12 7v6" />
+          </svg>
+        </div>
+        <h3 class="font-bold mb-2 text-center">Controle de indicadores</h3>
+        <p class="text-center">Painéis com KPIs atualizados em tempo real.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="faq" class="py-16 bg-white" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8 text-center">Perguntas Frequentes</h2>
+    <div class="max-w-3xl mx-auto space-y-6">
+      <div>
+        <h3 class="font-semibold">Como funciona o processo de diagnóstico?</h3>
+        <p>Fazemos reuniões para entender seus processos e identificar oportunidades de automação.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">A solução pode ser implantada em nuvem?</h3>
+        <p>Sim, oferecemos soluções locais e em nuvem conforme a necessidade do cliente.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Vocês atendem empresas de qualquer setor?</h3>
+        <p>Sim, nossas soluções são adaptáveis a diferentes segmentos e realidades.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Quais sistemas vocês integram?</h3>
+        <p>Integramos com SAP, SharePoint, ERPs, CRMs e outros sistemas corporativos.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">É possível personalizar a solução?</h3>
+        <p>Sim, desenvolvemos sob medida conforme as necessidades da sua operação.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Quanto tempo leva a implementação?</h3>
+        <p>Depende da complexidade, mas geralmente de 2 a 6 semanas.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Vocês oferecem suporte após a entrega?</h3>
+        <p>Sim, oferecemos planos de suporte contínuo para manutenção e melhorias.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Qual o primeiro passo?</h3>
+        <p>Entre em contato conosco e agendaremos um diagnóstico gratuito.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contato" class="py-20 bg-gray-100" data-aos="fade-up">
+      <div class="container mx-auto px-6 max-w-2xl text-center bg-white rounded-lg shadow-lg p-10">
+        <h2 class="text-3xl font-bold mb-4">Fale com a Flowbite</h2>
+        <p class="mb-6">Estamos prontos para entender seu desafio e propor soluções sob medida.</p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+          <a href="mailto:comercial@flowbite.com.br" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700">Enviar e-mail</a>
+          <a href="https://wa.me/5516992270472" target="_blank" class="bg-green-500 text-white px-6 py-3 rounded-full shadow hover:bg-green-600 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.52 3.48a11.84 11.84 0 00-16.68 0 11.837 11.837 0 00-3.48 8.4 11.95 11.95 0 002.31 6.24L2 22l4.02-1.28a11.94 11.94 0 006.18 1.5 11.84 11.84 0 008.32-3.48 11.86 11.86 0 000-16.5zM10.92 18.48a9.48 9.48 0 01-5.07-1.47l-.36-.22-3.01.96 1.02-2.92-.24-.37a9.44 9.44 0 01-1.44-5.1 9.6 9.6 0 0116.98-6.6 9.51 9.51 0 01-6.92 15.75z" />
+            </svg>
+            WhatsApp
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- Casos de Uso -->
-    <section id="casos" class="py-16 bg-gray-100 text-center">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold mb-10">Casos de Uso</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Envio automático de relatórios</h3>
-            <p>Geração e envio de relatórios a partir de dados extraídos do SAP e SharePoint.</p>
-          </div>
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Solicitação de compras</h3>
-            <p>Automatização do processo de pedido de compra (PSA) e lançamento de nota fiscal.</p>
-          </div>
-          <div class="bg-white p-6 rounded-2xl shadow">
-            <h3 class="text-xl font-semibold mb-2">Monitoramento de sistemas</h3>
-            <p>Aplicações que executam rotinas, monitoram erros e registram logs detalhados.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Empresas -->
-    <section id="clientes" class="py-16 text-center">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold mb-4">Empresas que confiam na Flowbite</h2>
-        <p>Atuamos com empresas que buscam transformar a rotina operacional com eficiência e tecnologia.</p>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="py-16 bg-gray-100">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-10">Perguntas Frequentes</h2>
-        <div class="space-y-4">
-          <details class="bg-white p-4 rounded shadow">
-            <summary class="font-semibold cursor-pointer">Quais tipos de processos podem ser automatizados?</summary>
-            <p class="mt-2">Desde tarefas administrativas simples até integrações entre sistemas complexos.</p>
-          </details>
-          <details class="bg-white p-4 rounded shadow">
-            <summary class="font-semibold cursor-pointer">Quais sistemas vocês integram?</summary>
-            <p class="mt-2">SAP, SharePoint, Excel, APIs externas, bancos de dados, entre outros.</p>
-          </details>
-          <details class="bg-white p-4 rounded shadow">
-            <summary class="font-semibold cursor-pointer">Como funciona o início do projeto?</summary>
-            <p class="mt-2">Realizamos um diagnóstico gratuito, seguido por proposta e cronograma.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contato -->
-    <section id="contato" class="py-16 text-center">
-      <div class="max-w-xl mx-auto">
-        <h2 class="text-3xl font-bold mb-4">Entre em contato</h2>
-        <p class="mb-6">Quer levar automação para sua empresa? Fale conosco:</p>
-        <div class="space-x-4">
-          <a href="https://wa.me/5516992270472" target="_blank" class="inline-block bg-green-500 text-white px-6 py-3 rounded-full font-semibold">WhatsApp</a>
-          <a href="mailto:comercial@flowbite.com.br" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold">E-mail</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-blue-900 text-white text-center py-4">
-      <p>&copy; 2025 Flowbite - Todos os direitos reservados</p>
+    <footer class="text-center text-sm text-gray-500 py-6 bg-gray-100">
+      <p>&copy; 2025 Flowbite. Todos os direitos reservados.</p>
     </footer>
+
+    <script>AOS.init();</script>
   </body>
 </html>
